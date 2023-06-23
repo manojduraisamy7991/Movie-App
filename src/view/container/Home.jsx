@@ -103,7 +103,7 @@ export default function Home() {
         )}
       </main>
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-        {actorName && data.length == 0 && <NotFound />}
+        {actorName && data.length === 0 && <NotFound />}
       </Box>
     </ThemeProvider>
   );
